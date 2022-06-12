@@ -1,0 +1,42 @@
+
+.container{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+.flex-box-pick-color{
+    background-color: wheat ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.form-select{
+    min-width: 150px;
+}
+
+
+@media  (max-width:768px) {
+
+    .flex-box-pick-color{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        
+    }
+
+    .form-select{
+        margin-bottom: 40px;
+    }
+
+    .flex-box-pick-color button{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
